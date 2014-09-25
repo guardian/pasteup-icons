@@ -59,11 +59,7 @@ module.exports = function(grunt) {
                     base: 'docs',
                     message: 'Releasing docs to http://guardian.github.io/pasteup-icons/'
                 },
-                src: [
-                    '*.html',
-                    'build/**/*',
-                    'theme-build/**/*'
-                ]
+                src: ['**/*']
             }
         },
         'git-release': {

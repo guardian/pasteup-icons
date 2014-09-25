@@ -1,7 +1,7 @@
 {
   "name": "pasteup-icons",
   "description": "Icons component in the Pasteup collection",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": [
     "build/icons.min.css",
     "src/_icons.scss"

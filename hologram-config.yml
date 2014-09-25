@@ -18,6 +18,7 @@ custom_markdown: ./bower_components/Cortana/CortanaMarkdownRenderer.rb
 # document. May also include additional folders as needed.
 dependencies:
  - ./build
+ - ./icons
 
 # List all css to include for the styleguide render examples (path from
 # styleguide directory)

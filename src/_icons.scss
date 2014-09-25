@@ -1,0 +1,57 @@
+/*doc
+---
+title: Icons
+name: icons
+category: Common
+---
+
+Icons
+
+```html_example
+<p><span class="pu-i pu-i--double-arrow"></span>Double Arrow</p>
+<p><span class="pu-i pu-i--arrow"></span>Arrow</p>
+<p><span class="pu-i pu-i--video"></span>Video</p>
+<p><span class="pu-i pu-i--photo"></span>Photo</p>
+<p><span class="pu-i pu-i--refresh"></span>Refresh</p>
+<p><span class="pu-i pu-i--audio-mute"></span>Audio Mute</p>
+<p><span class="pu-i pu-i--audio"></span>Audio</p>
+```
+*/
+
+.pu-i:before {
+    display: inline-block;
+    font-family: guardian_iconsregular;
+    margin-right: .3em;
+}
+
+.pu-i--right:before {
+    transform: rotate(90deg);
+}
+.pu-i--down:before {
+    transform: rotate(180deg);
+}
+.pu-i--left:before {
+    transform: rotate(270deg);
+}
+
+.pu-i--double-arrow:before {
+    content: '\E000';
+}
+.pu-i--arrow:before {
+    content: '\E003';
+}
+.pu-i--video:before {
+    content: '\E043';
+}
+.pu-i--photo:before {
+    content: '\E044';
+}
+.pu-i--refresh:before {
+    content: '\E045';
+}
+.pu-i--audio-mute:before {
+    content: '\E046';
+}
+.pu-i--audio:before {
+    content: '\E047';
+}

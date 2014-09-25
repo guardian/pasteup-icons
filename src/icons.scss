@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'guardian_iconsregular';
+    src: url('../../icons/guardianicons.eot');
+    src: url('../../icons/guardianicons.eot?#iefix') format('embedded-opentype'),
+         url('../../icons/guardianicons.woff2') format('woff2'),
+         url('../../icons/guardianicons.woff') format('woff'),
+         url('../../icons/guardianicons.ttf') format('truetype'),
+         url('../../icons/guardianicons.svg#guardian_iconsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import '_icons';

@@ -1,15 +1,15 @@
 {
-  "name": "pasteup-buttons",
-  "description": "Button component in the Pasteup collection",
-  "version": "0.4.0",
+  "name": "pasteup-icons",
+  "description": "Icons component in the Pasteup collection",
+  "version": "0.0.0",
   "main": [
-    "build/buttons.min.css",
-    "src/_buttons.scss"
+    "build/icons.min.css",
+    "src/_icons.scss"
   ],
-  "homepage": "https://github.com/guardian/pasteup-buttons",
+  "homepage": "https://github.com/guardian/pasteup-icons",
   "repository": {
     "type": "git",
-    "url": "http://github.com/guardian/pasteup-buttons.git"
+    "url": "http://github.com/guardian/pasteup-icons.git"
   },
   "dependencies": {
     "guss-colours": "~3.0.0",

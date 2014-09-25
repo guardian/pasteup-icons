@@ -19,7 +19,7 @@ module.exports = function(grunt) {
             ],
         },
         scsslint: {
-            buttons: [
+            icons: [
                 'src'
             ],
             options: {
@@ -74,7 +74,7 @@ module.exports = function(grunt) {
         }
     });
 
-    grunt.registerTask('validate', ['scsslint:buttons']);
+    grunt.registerTask('validate', ['scsslint:icons']);
     grunt.registerTask('build', ['validate', 'clean:build', 'sass:icons']);
     grunt.registerTask('docs', ['build', 'clean:docs', 'hologram:icons']);
     grunt.registerTask('release', function (type) {

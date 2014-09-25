@@ -1,9 +1,9 @@
-Pasteup Buttons
-===============
+Pasteup Icons
+=============
 
 Part of the [Pasteup](https://github.com/guardian/pasteup) collection.
 
-[View the docs](http://guardian.github.io/pasteup-buttons/)
+[View the docs](http://guardian.github.io/pasteup-icons/)
 
 ## Installation
 
@@ -18,16 +18,16 @@ $ npm install -g bower
 Then install this component with
 
 ```
-$ bower install pasteup-buttons --save
+$ bower install pasteup-icons --save
 ```
 
 ## Usage
 
 ```
-@import 'bower_components/pasteup-buttons/src/_buttons'
+@import 'bower_components/pasteup-icons/src/_icons'
 ```
 
-Or use the [standalone build](build/buttons.min.css)
+Or use the [standalone build](build/icons.min.css)
 
 ## Development
 
